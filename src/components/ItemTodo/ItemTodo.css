@@ -1,0 +1,37 @@
+.item-todo {
+    margin-bottom: 0.75em;
+    border-radius: 0.25em;
+    filter: brightness(1.4);
+    border-left: 3px solid var(--warning-border);
+    background-color: var(--warning-bg);
+    color: var(--warning-text);
+    overflow-wrap: anywhere;
+    text-align: justify;
+}
+
+.item-todo.item-todo-success {
+    border-left-color: var(--success-text);
+    background-color: var(--success-bg);
+    text-decoration: line-through;
+    color: var(--success-text);
+}
+
+.item-todo .delete-btn {
+    display: none;
+}
+
+.item-todo .delete-btn:hover {
+    background-color: rgb(211, 47, 47, 0.1);
+}
+
+.item-todo:hover .delete-btn {
+    display: flex;
+}
+
+.item-todo .checkbox:hover {
+    background-color: rgb(183, 165, 50, 0.3);
+}
+
+.item-todo .checkbox-success:hover {
+    background-color: rgba(99, 177, 108, 0.3);
+}

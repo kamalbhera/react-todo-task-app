@@ -1,0 +1,38 @@
+.calendar {
+  margin-bottom: 1em;
+}
+
+.calendar-title {
+  background: linear-gradient(90.13deg, #1976d2 0.84%, #7bb7f4 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.calendar table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+.calendar table thead {
+  /* background-color: #1976d2; */
+  background: linear-gradient(90.13deg, #1976d2 0.84%, #7bb7f4 99.96%);
+  color: rgba(255, 255, 255, 0.895);
+}
+
+.calendar table thead th {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.calendar table tbody td {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.calendar table button {
+  border-radius: 50px;
+  padding: 0;
+  min-width: 30px;
+  min-height: 30px; 
+}
